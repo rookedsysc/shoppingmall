@@ -12,4 +12,9 @@ public class ShoppingMallApplication {
   public static void main(String[] args) {
     SpringApplication.run(ShoppingMallApplication.class, args);
   }
+
+  @GetMapping
+  public String hello() {
+    return "Hello, world!";
+  }
 }
